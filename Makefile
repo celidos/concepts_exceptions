@@ -1,4 +1,4 @@
-CFLAGS=-std=c++11
+CFLAGS=-std=c++11 -f-no-exceptions
 
 all:
 	g++ $(CFLAGS) main.cpp jmpexceptions.cpp -o main
